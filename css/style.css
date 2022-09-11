@@ -21,11 +21,11 @@
 /* utilities classes */
 .button{
     border-radius: 25px;
-    color: #fff;
     font-weight: 700;
     padding: 7px 30px;
     text-decoration: none;
-
+    font-size: 18px;
+    font-family: var(--extra-font);
 }
 
 /* here started the hero image over coede  */
@@ -161,6 +161,7 @@ a{
     padding-top: 15px;
     padding-bottom: 15px;
     transition: 0.4s ease-in-out;
+    color: #fff;
 }
 .hero .content .quote-btn:hover{
     color: #fff;
@@ -263,4 +264,81 @@ a{
 }
 /* features section ended here  */
 
+
+/* about section started here  */
+.about-section .container .left{
+    padding: 0px 60px 0px 0px;
+    
+}
+.about-section .container .left .left-content{
+    position: relative;
+}
+
+/* This portion of css apply all of i element in .left-content */
+.about-section .container .left .left-content i{
+    position: absolute;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* This portion of css apply all of i element in .left-content */
+
+.about-section .container .left .left-content .fa-wordpress{
+    top: -40px;
+    right: -40px;
+    background-color: #007095;
+    font-size: 60px;
+}
+.about-section .container .left .left-content .fa-laravel{
+    top: 86px;
+    left: -106px;
+    background-color: #FB503B;
+    font-size: 40px;
+}
+.about-section .container .left .left-content .fa-shopify{
+    bottom: -36px;
+    left: 269px;
+    background-color: #96bf48;
+    font-size: 50px;
+}
+.about-section .container .left img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about-section .container .right{
+    padding: 0px 0px 0px 60px;
+}
+.about-section .container .right .title span{
+    font-size: 20px;
+    font-family: var(--extra-font);
+    color: var(--main-color);
+    font-weight: 600;
+}
+.about-section .container .right .title h3{
+    font-size: 35px;
+    font-weight: 600;
+    color: #000;
+    line-height: 1.25;
+    font-family: var(--extra-font);
+    word-spacing: 3px;
+}
+
+.about-section .container .right .body p{
+    margin: 20px 0px 50px 0px;
+    font-size: 16px;
+    color: #54545f;
+    line-height: 26px;
+}
+.about-section .container .right .body .button{
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: 0.4s ease-in-out;
+}
+.about-section .container .right .body .button:hover{
+    background-color: var(--main-color);
+}
+/* about section ended here  */
 /* *********************************code ended******************************* */
