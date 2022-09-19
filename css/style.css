@@ -341,4 +341,45 @@ a{
     background-color: var(--main-color);
 }
 /* about section ended here  */
+
+
+/* here started the portfolio section  */
+
+
+/* here started the count section  */
+.portfolio .count-section .col{
+    display: flex;
+    align-items: center;
+    width: 350px;
+} 
+.portfolio .count-section .col .count{
+    position: relative;
+    height: 100px;
+    color: var(--main-color);
+}
+.portfolio .count-section .col .count .num{
+    font-size: 60px;
+    font-family: var(--extra-font);
+    font-weight: bold;
+    margin-right: 25px;
+}
+.portfolio .count-section .col .count .plus{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 33px;
+    font-family: var(--extra-font);
+    font-weight: bold;
+}
+
+.portfolio .count-section .col .name{
+    font-size: 23px;
+    font-family: var(--extra-font);
+    font-weight: bold;
+    line-height: 1.7rem;
+}
+
+/* here started the count section  */
+
+/* here ended the portfolio section  */
 /* *********************************code ended******************************* */
