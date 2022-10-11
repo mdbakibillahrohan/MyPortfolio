@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 /* import section  */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,15 +11,16 @@
 }
 
 /* var section  */
-:root{
+:root {
     --main-color: #fb503b;
     --secondary-color: #142eb5;
     --extra-font: 'Barlow', sans-serif;
 }
+
 /* var section  */
 
 /* utilities classes */
-.button{
+.button {
     border-radius: 25px;
     font-weight: 700;
     padding: 7px 30px;
@@ -28,8 +29,8 @@
     font-family: var(--extra-font);
 }
 
-/* here started the hero image over coede  */
-.hero-image-over-item{
+/* here started the hero image over code  */
+.hero-image-over-item {
     position: absolute;
     background-color: #fff;
     display: flex;
@@ -41,42 +42,69 @@
     font-family: var(--extra-font);
 }
 
-.hero-image-over-item .item-name{
+.hero-image-over-item .item-name {
     font-size: 17px;
     font-weight: bold;
     line-height: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.hero-image-over-item .count{
+.hero-image-over-item .count {
     font-size: 40px;
     margin-right: 10px;
     color: #50c5f0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* here ended the hero image over code  */
 
-.def-m-p{
+.def-m-p {
     margin: 80px 0px;
     padding: 80px 0px;
 }
+
+.section-title span {
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--extra-font);
+}
+
+.section-title h3 {
+    line-height: 1.25;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: var(--extra-font);
+}
+
 /* utilities classes */
 
 
 /* default code  */
 
-a{
+a {
     text-decoration: none;
     color: #000;
 }
+
 /* default code  */
 
 
-/* bootstrap overidden classes */
-.container{
+/* bootstrap overridden classes */
+.container {
     width: 70%;
 }
-/* bootstrap overidden classes */
+
+.progress {
+    height: 8px;
+}
+
+.progress-bar {
+    background-color: var(--secondary-color);
+}
+
+/* bootstrap overridden classes */
 
 
 
@@ -85,7 +113,7 @@ a{
 
 
 /* hero section started here  */
-.hero{
+.hero {
     width: 100%;
     height: 100vh;
     position: relative;
@@ -94,101 +122,111 @@ a{
     background-size: 100% 100%;
 }
 
-.hero .hero-nav-btn{
+.hero .hero-nav-btn {
     background-color: var(--main-color);
     color: #fff;
     transition: 0.6s ease;
 }
-.hero .hero-nav-btn:hover{
+
+.hero .hero-nav-btn:hover {
     color: #fff;
     background-color: var(--secondary-color);
     border: none;
 }
 
-.hero .navbar{
+.hero .navbar {
     height: 100px;
 }
-.hero .navbar .nav-item{
+
+.hero .navbar .nav-item {
     margin: 0px 15px;
 }
-.hero .nav-item a{
+
+.hero .nav-item a {
     font-weight: bold;
     color: #fff !important;
     font-family: var(--extra-font);
 }
 
 
-.hero .content{
+.hero .content {
     height: 75vh;
 }
 
 
 
 /* hero first section started here  */
-.hero .content .first{
+.hero .content .first {
     height: 75vh;
 }
 
 
 
-.hero .content .first .name{
+.hero .content .first .name {
     color: #fff;
     font-size: 65px;
     font-family: var(--extra-font);
     font-weight: bold;
 }
 
-.hero .content .first .hello{
+.hero .content .first .hello {
     color: #fff;
     font-weight: bold;
     font-size: 30px;
 }
-.hero .content .first .job{
+
+.hero .content .first .job {
     font-size: 22px;
     margin-bottom: 25px;
     color: #fff;
     font-weight: bold;
     font-family: var(--extra-font);
 }
-.hero .content .first .hero-text{
+
+.hero .content .first .hero-text {
     margin-bottom: 30px;
     color: #fff;
     font-size: 18px;
 }
 
-.hero .content .quote-btn{
+.hero .content .quote-btn {
     background-color: var(--secondary-color);
     padding-top: 15px;
     padding-bottom: 15px;
     transition: 0.4s ease-in-out;
     color: #fff;
 }
-.hero .content .quote-btn:hover{
+
+.hero .content .quote-btn:hover {
     color: #fff;
     background-color: var(--main-color);
     border: none;
 }
-.hero .content .buttons{
+
+.hero .content .buttons {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 250px;
 }
-.hero .content  .about-me-button{
+
+.hero .content .about-me-button {
     color: #fff;
     font-weight: bold;
 }
+
 /* hero first section ended here  */
 
 
 /* hero second section started here  */
-.hero .second .second-content{
+.hero .second .second-content {
     position: relative;
     width: 100%;
     height: 75vh;
 
 }
-.hero .second .second-content img{
+
+.hero .second .second-content img {
     position: absolute;
     top: 50%;
     right: 0;
@@ -197,125 +235,145 @@ a{
     height: 400px;
     border-radius: 10px;
 }
-.hero .second .second-content .success{
+
+.hero .second .second-content .success {
     top: 25%;
     left: 10%;
 }
-.hero .second .second-content .projects{
+
+.hero .second .second-content .projects {
     top: 60%;
     right: -15%;
 }
 
-.hero .second .second-content .projects .count{
+.hero .second .second-content .projects .count {
     color: var(--main-color);
     position: relative;
 }
 
-.hero .second .second-content .projects .plus{
-   position: absolute;
-   font-size: 25px;
+.hero .second .second-content .projects .plus {
+    position: absolute;
+    font-size: 25px;
 }
-.hero .second .second-content .projects .item-name{
+
+.hero .second .second-content .projects .item-name {
     margin-left: 10px;
 }
 
-.hero .second .second-content .trophy{
+.hero .second .second-content .trophy {
     top: 10%;
     right: -5%;
 }
-.hero .second .second-content .trophy i{
+
+.hero .second .second-content .trophy i {
     font-size: 40px;
     color: #FE9923;
 }
+
 /* hero section ended here  */
 
 /* features section started here  */
-.features-section .container .row .top{
+.features-section .container .row .top {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.features-section .container .row .top .header .name{
+
+.features-section .container .row .top .header .name {
     font-family: var(--extra-font);
     font-weight: bold;
     font-size: 22px;
 }
-.features-section .container .row .top .header .number{
+
+.features-section .container .row .top .header .number {
     font-family: var(--extra-font);
     color: var(--main-color);
     font-weight: bold;
 }
-.features-section .container .row .top .icon i{
+
+.features-section .container .row .top .icon i {
     font-size: 40px;
     color: var(--secondary-color);
 }
-.features-section .container .row .bottom{
+
+.features-section .container .row .bottom {
     text-align: justify;
 }
-.features-section .container .row .feature-box{
+
+.features-section .container .row .feature-box {
     padding: 0px 20px;
 }
-.features-section .container .row .feature-box hr{
+
+.features-section .container .row .feature-box hr {
     margin: 40px 0px;
     transition: 1s;
 }
-.features-section .container .row .feature-box hr:hover{
+
+.features-section .container .row .feature-box hr:hover {
     border: 1px solid #000;
 }
+
 /* features section ended here  */
 
 
 /* about section started here  */
-.about-section .container .left{
+.about-section .container .left {
     padding: 0px 60px 0px 0px;
-    
+
 }
-.about-section .container .left .left-content{
+
+.about-section .container .left .left-content {
     position: relative;
 }
 
 /* This portion of css apply all of i element in .left-content */
-.about-section .container .left .left-content i{
+.about-section .container .left .left-content i {
     position: absolute;
     color: #fff;
     padding: 20px;
     border-radius: 10px;
 }
+
 /* This portion of css apply all of i element in .left-content */
 
-.about-section .container .left .left-content .fa-wordpress{
+.about-section .container .left .left-content .fa-wordpress {
     top: -40px;
     right: -40px;
     background-color: #007095;
     font-size: 60px;
 }
-.about-section .container .left .left-content .fa-laravel{
+
+.about-section .container .left .left-content .fa-laravel {
     top: 86px;
     left: -106px;
     background-color: #FB503B;
     font-size: 40px;
 }
-.about-section .container .left .left-content .fa-shopify{
+
+.about-section .container .left .left-content .fa-shopify {
     bottom: -36px;
     left: 269px;
     background-color: #96bf48;
     font-size: 50px;
 }
-.about-section .container .left img{
+
+.about-section .container .left img {
     width: 100%;
     border-radius: 15px;
 }
 
-.about-section .container .right{
+.about-section .container .right {
     padding: 0px 0px 0px 60px;
 }
-.about-section .container .right .title span{
+
+.about-section .container .right .title span {
     font-size: 20px;
     font-family: var(--extra-font);
     color: var(--main-color);
     font-weight: 600;
 }
-.about-section .container .right .title h3{
+
+.about-section .container .right .title h3 {
     font-size: 35px;
     font-weight: 600;
     color: #000;
@@ -324,22 +382,25 @@ a{
     word-spacing: 3px;
 }
 
-.about-section .container .right .body p{
+.about-section .container .right .body p {
     margin: 20px 0px 50px 0px;
     font-size: 16px;
     color: #54545f;
     line-height: 26px;
 }
-.about-section .container .right .body .button{
+
+.about-section .container .right .body .button {
     background-color: var(--secondary-color);
     color: #fff;
     padding-top: 15px;
     padding-bottom: 15px;
     transition: 0.4s ease-in-out;
 }
-.about-section .container .right .body .button:hover{
+
+.about-section .container .right .body .button:hover {
     background-color: var(--main-color);
 }
+
 /* about section ended here  */
 
 
@@ -347,23 +408,26 @@ a{
 
 
 /* here started the count section  */
-.portfolio .count-section .col{
+.portfolio .count-section .col {
     display: flex;
     align-items: center;
     width: 350px;
-} 
-.portfolio .count-section .col .count{
+}
+
+.portfolio .count-section .col .count {
     position: relative;
     height: 100px;
     color: var(--main-color);
 }
-.portfolio .count-section .col .count .num{
+
+.portfolio .count-section .col .count .num {
     font-size: 60px;
     font-family: var(--extra-font);
     font-weight: bold;
     margin-right: 25px;
 }
-.portfolio .count-section .col .count .plus{
+
+.portfolio .count-section .col .count .plus {
     position: absolute;
     right: 10px;
     top: 10px;
@@ -372,14 +436,138 @@ a{
     font-weight: bold;
 }
 
-.portfolio .count-section .col .name{
+.portfolio .count-section .col .name {
     font-size: 23px;
     font-family: var(--extra-font);
     font-weight: bold;
     line-height: 1.7rem;
 }
 
-/* here started the count section  */
+/* here ended the count section  */
+
+/* here started the main portfolio section  */
+
+.main-portfolio-section {
+    margin-top: 80px;
+    padding-top: 80px;
+}
+
+.main-portfolio-section .title span {
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main-portfolio-section .title h3 {
+    line-height: 1.25;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+/* content section  */
+.main-portfolio-section .content {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.main-portfolio-section .content .portfolio-item {
+    width: 70%;
+    height: 430px;
+    color: #fff;
+    position: relative;
+    border-radius: 30px;
+    margin: 30px 0px;
+}
+
+.main-portfolio-section .content .portfolio-item .details-left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30%;
+    left: 10%;
+}
+
+.main-portfolio-section .content .portfolio-item .details-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30%;
+    right: 10%;
+}
+
+.main-portfolio-section .content .portfolio-item .project-name {
+    font-family: var(--extra-font);
+    font-size: 18px;
+    font-weight: 600px;
+    color: var(--main-color);
+}
+
+.main-portfolio-section .content .portfolio-item .project-tagline {
+    font-size: 36px;
+    color: #fff;
+    font-family: var(--extra-font);
+    font-weight: bold;
+}
+
+.main-portfolio-section .content .portfolio-item .project-btn {
+    color: #fff;
+}
+
+.main-portfolio-section .content .portfolio-item .portfolio-image {
+    position: absolute;
+    width: 100%;
+    height: 430px;
+    border-radius: 30px;
+    transition: transform 0.4s;
+}
+
+.main-portfolio-section .content .portfolio-item .portfolio-image:hover {
+    transform: scale(1.1);
+
+}
+
+/* content section  */
+
+/* here ended the main portfolio section  */
 
 /* here ended the portfolio section  */
+
+
+
+/* here started the my skills section  */
+.my-skills .content .skills-item {
+    margin: 30px 0px;
+    padding: 0px 30px;
+}
+
+.my-skills .content .skills-item .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-skills .content .skills-item .title .name {
+    font-weight: 600;
+    font-family: var(--extra-font);
+    font-size: 18px;
+}
+
+
+.my-skills .content .skills-item .title .percentage {
+    color: var(--main-color);
+    font-family: var(--extra-font);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.my-skills .content .skills-item .progress {
+    margin-top: 10px;
+}
+
+/* here ended the my skills section  */
 /* *********************************code ended******************************* */
