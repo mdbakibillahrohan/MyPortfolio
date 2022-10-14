@@ -11,12 +11,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div class="root">
-        <div class="hero">
+        <section class="hero">
             <!-- here started the navbar section  -->
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
@@ -63,11 +65,10 @@
                             <h3 class="hello">Hello I'm</h3>
                             <h3 class="name">Md. Bakibillah</h3>
                             <h3 class="job">Web Developer from Bangladesh</h3>
-                            <p class="hero-text">Jodi kokhono vul hoye jai tumi oporadh nio na ptate velit esse cillum
-                                dolore</p>
+                            <p id="quoteText" class="hero-text"></p>
 
                             <div class="buttons">
-                                <a class="button quote-btn" href="#">Get a Quote</a>
+                                <a id="getQuoteBtn" class="button quote-btn" href="#">Get a Quote</a>
                                 <a class="about-me-button" href="#">About Me</a>
                             </div>
                         </div>
@@ -99,12 +100,12 @@
 
             </div>
             <!-- here ended content section  -->
-        </div>
+        </section>
         <!-- here ended hero section  -->
 
 
         <!-- here started the features section  -->
-        <div class="features-section def-m-p">
+        <section class="features-section def-m-p">
             <div class="container">
                 <div class="row">
                     <div class="col feature-box">
@@ -160,7 +161,7 @@
 
 
         <!-- here started the developer section  -->
-        <div class="about-section def-m-p">
+        <section class="about-section def-m-p">
             <div class="container">
                 <div class="row">
                     <div class="col left">
@@ -188,13 +189,13 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- here ended the developer section  -->
 
 
 
         <!-- here started the Portfolio section  -->
-        <div class="portfolio def-m-p">
+        <section class="portfolio def-m-p">
             <div class="container">
                 <!-- here started the count section  -->
                 <div class="row count-section">
@@ -289,12 +290,12 @@
             <!-- here ended the main portfolio section  -->
 
 
-        </div>
+        </section>
         <!-- here ended the Portfolio section  -->
 
 
         <!-- here started the skills section  -->
-        <div class="my-skills def-m-p">
+        <section class="my-skills def-m-p">
             <div class="container">
                 <div class="section-title text-center">
                     <span>My Skills</span>
@@ -380,18 +381,190 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- here ended the skills section  -->
 
 
         <!-- here started the services section  -->
-        <div class="services">
+        <section class="services ">
 
-        </div>
+            <div class="container">
+                <div class="wrap">
+                    <div class="row">
+                        <div class="col-md-6 item first">
+                            <i class="fa-sharp fa-solid fa-microchip"></i>
+                            <h2>Desktop Application</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat repellat doloribus quasi perferendis enim facilis dolorum atque reprehenderit </p>
+                        </div>
+                        <div class="col-md-6 item second">
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            <h2>Mobile Application</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat repellat doloribus quasi perferendis enim facilis dolorum atque reprehenderit </p>
+                        </div>
+                        <div class="col-md-6 item third">
+                            <i class="fa-brands fa-react"></i>
+                            <h2>Website Development</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat repellat doloribus quasi perferendis enim facilis dolorum atque reprehenderit </p>
+                        </div>
+                        <div class="col-md-6 item fourth">
+                            <i class="fa-solid fa-star"></i>
+                            <h2>Game Development</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat repellat doloribus quasi perferendis enim facilis dolorum atque reprehenderit </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- here ended the services section  -->
+
+        <!-- here started the testimonial section  -->
+        <section class="testimonial def-m-p">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span>Testimonial</span>
+                    <h3>What Clients Say</h3>
+                    <p>Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
+                    </p>
+                </div>
+
+                <!-- here started the caurosel -->
+                <div class="owl-carousel owl-theme">
+                    <div class="slider-item">
+                        <span class="apostrophe text-center">"</span>
+                        <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ducimus dolore recusandae </p>
+                        <div class="client">
+                            <img class="client-img" src="img/slider/3.jpg" alt="">
+                            <div class="client-details">
+                                <h5 class="name">David Parker</h5>
+                                <span class="passion">Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <span class="apostrophe text-center">"</span>
+                        <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ducimus dolore recusandae </p>
+                        <div class="client">
+                            <img class="client-img" src="img/slider/3.jpg" alt="">
+                            <div class="client-details">
+                                <h5 class="name">David Parker</h5>
+                                <span class="passion">Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <span class="apostrophe text-center">"</span>
+                        <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ducimus dolore recusandae </p>
+                        <div class="client">
+                            <img class="client-img" src="img/slider/3.jpg" alt="">
+                            <div class="client-details">
+                                <h5 class="name">David Parker</h5>
+                                <span class="passion">Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <span class="apostrophe text-center">"</span>
+                        <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ducimus dolore recusandae </p>
+                        <div class="client">
+                            <img class="client-img" src="img/slider/3.jpg" alt="">
+                            <div class="client-details">
+                                <h5 class="name">David Parker</h5>
+                                <span class="passion">Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <span class="apostrophe text-center">"</span>
+                        <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ducimus dolore recusandae </p>
+                        <div class="client">
+                            <img class="client-img" src="img/slider/3.jpg" alt="">
+                            <div class="client-details">
+                                <h5 class="name">David Parker</h5>
+                                <span class="passion">Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                  </div>
+              
+                <!-- here ended the caurosel -->
+            </div>
+
+        </section>
+        <!-- here ended the testimonial section  -->
+
+        <!-- here started the contact us section  -->
+        <section class="contact-us def-m-p">
+            <div class="container">
+                <div class="title">
+                    <span>Don't be shy</span>
+                    <h2>Drop me a line</h2>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control form-elements" id="exampleFormControlInput1" placeholder="Name">
+                              </div>
+                            <div class="mb-3">
+                                
+                                <input type="email" class="form-control form-elements" id="exampleFormControlInput1" placeholder="Email">
+                              </div>
+                              <div class="mb-3">
+                                
+                                <textarea placeholder="Message" class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                              </div>
+                            <button type="submit" class="submit-btn">Submit</button>
+                          </form>
+                    </div>
+                    <div class="col">
+                        <div class="element">
+                            <div class="icon">
+                                <i class="fa-solid fa-location-pin"></i>
+                            </div>
+                            <div class="details">
+                                <h5 class="title">
+                                    Address
+                                </h5>
+                                <p class="tagline">20, Somewhere in world</p>
+                            </div>
+                        </div>
+                        <div class="element">
+                            <div class="icon">
+                                <i class="fa-solid fa-location-pin"></i>
+                            </div>
+                            <div class="details">
+                                <h5 class="title">
+                                    Address
+                                </h5>
+                                <p class="tagline">20, Somewhere in world</p>
+                            </div>
+                        </div>
+                        <div class="element">
+                            <div class="icon">
+                                <i class="fa-solid fa-location-pin"></i>
+                            </div>
+                            <div class="details">
+                                <h5 class="title">
+                                    Address
+                                </h5>
+                                <p class="tagline">20, Somewhere in world</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- here ended the contact us section  -->
     </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/caurosel.js"></script>
+    <script src="js/scirpt.js"></script>
 </body>
 
 </html>

@@ -104,6 +104,9 @@ a {
     background-color: var(--secondary-color);
 }
 
+.row{
+    width: 100%;
+}
 /* bootstrap overridden classes */
 
 
@@ -570,4 +573,196 @@ a {
 }
 
 /* here ended the my skills section  */
+
+
+/* here started my services section  */
+
+.services{
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+}
+.services .container .row{
+    overflow: hidden;
+    border-radius: 20px;
+}
+.services .container .item{
+    height: 450px;
+    padding: 50px;
+    transition: 0.4s ease-in-out;
+}
+.services .container .item:hover{
+    background-color: var(--main-color);
+}
+.services .container .item i{
+    font-size: 100px;
+    color: #fff;
+}
+.services .container .item h2{
+    color: #fff;
+    margin: 30px 0px;
+    font-family: var(--extra-font);
+    font-weight: 700;
+}
+
+.services .container .item p{
+    color: #fff;
+    line-height: 2.5rem;
+}
+
+.services .container .first{
+    background-color: #6E7FD1;
+}
+.services .container .second{
+    background-color: #343C55;
+}
+.services .container .third{
+    background-color: var(--secondary-color);
+}
+.services .container .fourth{
+    background-color: #6B97D3;
+}
+/* here ended my services section  */
+
+/* here started the testimonial section  */
+
+.testimonial .container .owl-carousel{
+    margin-top: 50px;
+}
+.testimonial .container .slider-item{
+    background-color: var(--main-color);
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 50px 0px;
+    /* box-shadow: 18px 0 87px rgb(10 15 70 / 7%); */
+}
+
+.testimonial .container .slider-item .apostrophe{
+    text-align: center;
+    font-size: 100px;
+    line-height: 70px;
+    /* color: var(--main-color); */
+    color: #fff;
+}
+
+.testimonial .container .slider-item .msg{
+    font-size: 24px;
+    text-align: center;
+    font-style: italic;
+    /* color: #636e72; */
+    color: #fff;
+    padding: 0px 45px;
+}
+
+.testimonial .container .slider-item .client{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.testimonial .container .slider-item .client .client-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.testimonial .container .slider-item .client .client-details .name{
+    font-family: var(--extra-font);
+    font-weight: bold;
+    color: #fff;
+}
+
+.testimonial .container .slider-item .client .client-details .passion{
+    color: #fff;
+}
+
+
+/* from here there are some overridden code of owl carousel css  */
+.owl-dot span{
+    background-color: #C4CBEC !important;
+}
+
+.owl-dots .active{
+    border: 2px solid var(--main-color) !important;
+    border-radius: 50%;
+}
+.owl-dots .active span{
+    background-color: var(--main-color) !important;
+    
+}
+/* overridden code has been over here  */
+
+
+/* here ended the testimonial section  */
+
+
+/* here started the contact us section  */
+.contact-us .container{
+    background-color: #0B1C77;
+    height: auto;
+    padding: 120px 100px;
+    border-radius: 20px;
+}
+
+.contact-us .container .title span{
+    color: #fff;
+    font-family: var(--extra-font);
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--main-color);
+}
+.contact-us .container .title h2{
+    color: #fff;
+    font-family: var(--extra-font);
+}
+.contact-us .container .row form .form-elements{
+    height: 60px;
+}
+
+.contact-us .container .row form .submit-btn{
+    width: 100%;
+    color: #fff;
+    background-color: var(--main-color);
+    padding: 15px 0px;
+    border-radius: 10px;
+
+}
+.contact-us .container .row .col .element{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    align-items: center;
+    margin: 40px 50px;
+}
+
+.contact-us .container .row .col .element .icon{
+    background-color: #6E7FD1;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us .container .row .col .element .icon i{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.contact-us .container .row .col .element .details .title{
+    color: #fff;
+    font-weight: bold;
+    font-family: var(--extra-font);
+    letter-spacing: 1px;
+}
+
+.contact-us .container .row .col .element .tagline{
+    color: #B0B4C2;
+}
+/* here ended the contact us section  */
 /* *********************************code ended******************************* */
