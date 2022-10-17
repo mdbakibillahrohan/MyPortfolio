@@ -630,7 +630,7 @@ a {
 }
 .testimonial .container .slider-item{
     background-color: var(--main-color);
-    width: 320px;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
